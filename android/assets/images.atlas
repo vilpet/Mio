@@ -1,0 +1,172 @@
+
+images.png
+size: 2048, 2048
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Mio
+  rotate: false
+  xy: 1028, 979
+  size: 560, 650
+  orig: 560, 650
+  offset: 0, 0
+  index: -1
+Sprite-0001
+  rotate: false
+  xy: 1028, 918
+  size: 35, 24
+  orig: 35, 24
+  offset: 0, 0
+  index: -1
+Sprite-0002
+  rotate: false
+  xy: 2, 50
+  size: 64, 39
+  orig: 64, 39
+  offset: 0, 0
+  index: -1
+Sprite-0003
+  rotate: false
+  xy: 68, 62
+  size: 38, 27
+  orig: 38, 27
+  offset: 0, 0
+  index: -1
+Sprite-0004
+  rotate: false
+  xy: 1590, 1597
+  size: 45, 32
+  orig: 45, 32
+  offset: 0, 0
+  index: -1
+Sprite-0005
+  rotate: false
+  xy: 2, 20
+  size: 37, 28
+  orig: 37, 28
+  offset: 0, 0
+  index: -1
+Sprite-0006
+  rotate: false
+  xy: 1028, 944
+  size: 54, 33
+  orig: 54, 33
+  offset: 0, 0
+  index: -1
+Sprite-0007
+  rotate: false
+  xy: 108, 73
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Sprite-0008
+  rotate: false
+  xy: 1590, 1579
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Sprite-0009
+  rotate: false
+  xy: 1065, 926
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Sprite-0010
+  rotate: false
+  xy: 2, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Sprite-0011
+  rotate: false
+  xy: 1084, 957
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+Sprite-0012
+  rotate: false
+  xy: 1028, 900
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Sprite-0013
+  rotate: false
+  xy: 1637, 1613
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Sprite-0014
+  rotate: false
+  xy: 1106, 961
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Sprite-0015
+  rotate: false
+  xy: 41, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+background1
+  rotate: false
+  xy: 2, 861
+  size: 1024, 768
+  orig: 1024, 768
+  offset: 0, 0
+  index: -1
+background3
+  rotate: false
+  xy: 2, 91
+  size: 1024, 768
+  orig: 1024, 768
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 68, 50
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+
+images2.png
+size: 2048, 2048
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+background2
+  rotate: false
+  xy: 2, 2
+  size: 1024, 768
+  orig: 1024, 768
+  offset: 0, 0
+  index: -1
+background5
+  rotate: false
+  xy: 2, 772
+  size: 1024, 768
+  orig: 1024, 768
+  offset: 0, 0
+  index: -1
+
+images3.png
+size: 2048, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+background4
+  rotate: false
+  xy: 2, 2
+  size: 1024, 768
+  orig: 1024, 768
+  offset: 0, 0
+  index: -1
