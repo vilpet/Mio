@@ -62,12 +62,12 @@ public class gameover implements Screen {
         background1 = textureAtlas.findRegion("Sprite-0011");
         background2 = textureAtlas.findRegion("background1");
 
-        stage = new Stage();
+        stage = new Stage(viewport);
         skin = new Skin();
         table = new Table(skin);
 
         skin.addRegions(textureAtlas);
-        table.setBounds(0,0,Gdx.graphics.getWidth(),Gdx.graphics.getHeight());
+        table.setBounds(4.5f,0,GameScreen.WORLD_WIDTH,GameScreen.WORLD_HEIGHT);
 
         textButtonStyle = new TextButton.TextButtonStyle();
         textButtonStyle.font = font;
@@ -80,10 +80,14 @@ public class gameover implements Screen {
         textButtonStyle1.down = skin.getDrawable("Sprite-0008");
 
         retrybutton = new TextButton("",textButtonStyle);
+        retrybutton.setTransform(true);
+        retrybutton.setScale(0.5f);
         settingsbutton = new TextButton("",textButtonStyle1);
+        settingsbutton.setTransform(true);
+        settingsbutton.setScale(0.5f);
 
-        table.add(retrybutton).size(40,40).pad(10);
-        table.add(settingsbutton).size(40,40).pad(10);
+        table.add(retrybutton);
+        table.add(settingsbutton);
 
         stage.addActor(table);
 
@@ -102,6 +106,8 @@ public class gameover implements Screen {
                 game.setScreen(new GameScreen(game));
             }
         });
+
+
 
 
 
