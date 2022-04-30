@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "107762375815",
+    "project_id": "miogame-b6f75",
+    "storage_bucket": "miogame-b6f75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107762375815:android:a152c27ecac8da333e2c22",
+        "android_client_info": {
+          "package_name": "com.mygdx.mio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107762375815-d8go0o22i4ufetv4unur397foqgi2acd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAIZJHbzOYgJwT3QLcfGdJlkVSrtpbs0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107762375815-d8go0o22i4ufetv4unur397foqgi2acd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

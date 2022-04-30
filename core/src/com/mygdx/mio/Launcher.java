@@ -33,7 +33,7 @@ public class Launcher extends Game {
 		creditScreen = new CreditScreen(this);
 		settingscreen = new SettingsScreen(this);
 		Gameover = new gameover(this);
-		setScreen(new gameover(this));
+		setScreen(new MainMenu(this));
 		music = Gdx.audio.newMusic(Gdx.files.internal("background.wav"));
 
 
