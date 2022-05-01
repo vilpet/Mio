@@ -1,5 +1,6 @@
 apply plugin: 'com.google.firebase.appdistribution'
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
 android {
     buildToolsVersion "31.0.0"
     compileSdkVersion 31
@@ -20,10 +21,12 @@ android {
     }
     defaultConfig {
         applicationId "com.mygdx.mio"
-        minSdkVersion 17
+        minSdkVersion 19
         targetSdkVersion 31
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
+
     }
     buildTypes {
         release {
@@ -94,6 +97,7 @@ task run(type: Exec) {
 dependencies {
     implementation 'com.google.firebase:firebase-auth:21.0.3'
     implementation 'com.google.firebase:firebase-analytics:20.1.2'
+    implementation 'com.google.firebase:firebase-crashlytics:18.2.9'
 }
 
 eclipse.project.name = appName + "-android"

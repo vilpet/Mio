@@ -26,11 +26,36 @@
 -dontwarn com.badlogic.gdx.physics.box2d.utils.Box2DBuild
 -dontwarn com.badlogic.gdx.jnigen.BuildTarget*
 -dontwarn com.badlogic.gdx.graphics.g2d.freetype.FreetypeBuild
+-dontwarn android.support.**
+
 
 # Required if using Gdx-Controllers extension
 -keep class com.badlogic.gdx.controllers.android.AndroidControllers
 
+ -keep class com.your.game.data.**{
+    **[] $VALUES;
+     *;
+}
+
+-keep class com.badlogic.gdx.scenes.scene2d.ui.** { <init>(...); <fields>;  }
+
+-keep class com.badlogic.gdx.graphics.Color { <init>(...); <fields>;  }
+-keep class com.badlogic.gdx.graphics.g2d.BitmapFont{ <init>(...); <fields>;  }
+
 # Required if using Box2D extension
+-keepclassmembers class com.badlogic.gdx.physics.box2d.World {
+   boolean contactFilter(long, long);
+   void    beginContact(long);
+   void    endContact(long);
+   void    preSolve(long, long);
+   void    postSolve(long, long);
+   boolean reportFixture(long);
+   float   reportRayFixture(long, float, float, float, float, float);
+}
+-keepclassmembers class com.badlogic.gdx.backends.android.AndroidInput* {
+   <init>(com.badlogic.gdx.Application, android.content.Context, java.lang.Object, com.badlogic.gdx.backends.android.AndroidApplicationConfiguration);
+}
+
 -keepclassmembers class com.badlogic.gdx.physics.box2d.World {
    boolean contactFilter(long, long);
    void    beginContact(long);

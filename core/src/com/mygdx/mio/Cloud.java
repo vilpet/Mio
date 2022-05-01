@@ -1,17 +1,14 @@
 package com.mygdx.mio;
-
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
-
 public class Cloud {
 
-    float movementspeed;// movement speed
+    float movementspeed;// movement speed - Brandon Grasley
     Vector2 directionVector;
     float timesincelastdirection = 0;
     float directionchange = 0.75f;
-
     TextureRegion cloudTexture;
     // will be used in creating collisions
     Rectangle boundingbox;
@@ -43,7 +40,7 @@ public class Cloud {
         }
     }
 
-
+    //detection if the items overlap.
     public boolean touches(Rectangle otherRectangle){
         Rectangle thisRectangle = new Rectangle(boundingbox.x, boundingbox.y, boundingbox.width, boundingbox.height);
         return thisRectangle.overlaps(otherRectangle);

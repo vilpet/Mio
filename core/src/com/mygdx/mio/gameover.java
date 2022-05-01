@@ -25,6 +25,7 @@ import java.util.Locale;
 
 public class gameover implements Screen {
     private Launcher game;
+    //View point
     public SpriteBatch batch;
     private Camera camera;
     private Viewport viewport;
@@ -98,12 +99,14 @@ public class gameover implements Screen {
             public void clicked(InputEvent event, float x, float y) {
                 game.setScreen(new MainMenu(game));
 
+
             }
         });
         retrybutton.addListener(new ClickListener(){
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 game.setScreen(new GameScreen(game));
+                GameScreen.score = 0;
             }
         });
 

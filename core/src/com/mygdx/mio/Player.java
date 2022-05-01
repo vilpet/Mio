@@ -6,7 +6,7 @@ import com.badlogic.gdx.math.Rectangle;
 
 public class Player {
 
-    float movementspeed; // movement speed
+    float movementspeed; // movement speed - Brandon Grasley
     int lives; // charges which will be added later
 
     TextureRegion playerTexture; // rectangular area of a texture
@@ -34,7 +34,7 @@ public class Player {
         boundingbox.setPosition(boundingbox.x+x,boundingbox.y+y);
     }
     public Rectangle getBoundingbox(){
-        return new Rectangle(boundingbox.x, boundingbox.y,boundingbox.width, boundingbox.height);
+        return new Rectangle(boundingbox.x, boundingbox.y,boundingbox.width-10, boundingbox.height-10);
     }
     public boolean touches(Rectangle otherRectangle){
         Rectangle thisRectangle = new Rectangle(boundingbox.x, boundingbox.y, boundingbox.width, boundingbox.height);
